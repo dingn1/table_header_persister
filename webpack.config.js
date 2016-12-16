@@ -70,8 +70,8 @@ module.exports = function (options) {
     //   Entries are supplied by gulp + vinyl-named package.
     // },
     output: {
-      filename: "[name].[hash].js",
-      sourceMapFilename: "[name].[hash].js.map"
+      filename: "[name].js",
+      sourceMapFilename: "[name].js.map"
     },
     devtool: "source-map",
     module: {
