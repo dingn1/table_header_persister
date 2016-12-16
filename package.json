@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/dingn1/form_header_persister.git"
   },
-  "author": "",
+  "dependencies": {
+    "jquery": "2.1.4"
+  },
+  "author": "Ning Ding",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dingn1/form_header_persister/issues"
