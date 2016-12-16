@@ -2,3 +2,7 @@
 npm-debug.log
 tmp/*
 **/node_modules/*
+javascript/*
+sourcemap/*
+stylesheets/*
+webpack-assets.json
