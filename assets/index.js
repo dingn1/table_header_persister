@@ -2,7 +2,7 @@
 
 var $ = require("jquery");
 
-function UpdateTableHeaders() {
+function PersistTableHeaders() {
   $(".persist-area").each(function() {
 
     var el = $(this),
@@ -26,7 +26,7 @@ $(function() {
     clonedHeader.before(clonedHeader.clone()).css("width", clonedHeader.width()).addClass("floatingHeader");
   });
 
-  $(window).scroll(UpdateTableHeaders).trigger("scroll");
+  $(window).scroll(PersistTableHeaders).trigger("scroll");
 
 });
 
