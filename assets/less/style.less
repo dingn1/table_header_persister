@@ -25,6 +25,31 @@ table {
   border-collapse: collapse;
 }
 
+table.tableSection {
+    display: table;
+    width: 100%;
+}
+
+table.tableSection thead, table.tableSection tbody {
+    float: left;
+    width: 100%;
+}
+
+table.tableSection tbody {
+    overflow: auto;
+    height: 300px;
+}
+
+table.tableSection tr {
+    width: 100%;
+    display: table;
+    text-align: left;
+}
+
+table.tableSection th, table.tableSection td {
+    width: 33%;
+}
+
 th {
   background-color: lightgrey;
   padding: 10px;

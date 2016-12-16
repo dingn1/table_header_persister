@@ -29,3 +29,5 @@ $(function() {
   $(window).scroll(UpdateTableHeaders).trigger("scroll");
 
 });
+
+module.exports = "formHeaderPersister";
