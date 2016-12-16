@@ -1,0 +1,19 @@
+{
+  "name": "form_header_persister",
+  "version": "1.0.0",
+  "description": "form header persister",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dingn1/form_header_persister.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dingn1/form_header_persister/issues"
+  },
+  "homepage": "https://github.com/dingn1/form_header_persister#readme"
+}
