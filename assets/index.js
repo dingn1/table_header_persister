@@ -26,6 +26,10 @@ $(function() {
     clonedHeader.before(clonedHeader.clone()).css("width", clonedHeader.width()).addClass("floatingHeader");
   });
 
+  $(".scroll-top").click(function() {
+    $(window).scrollTop(0);
+  });
+
   $(window).scroll(PersistTableHeaders).trigger("scroll");
 
 });
