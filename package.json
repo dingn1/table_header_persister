@@ -1,6 +1,6 @@
 {
   "name": "form_header_persister",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "form header persister",
   "main": "gulpfile.js",
   "scripts": {
