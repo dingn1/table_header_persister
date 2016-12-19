@@ -12,3 +12,6 @@ $ npm install --save form_header_persister
 ```
 
 ### check out the examples in example folder
+
+### the `persist-area` and `persist-header` class does the persisting of the table and `tableSection` class does the scroll
+### button with `scroll-top` class would help you to scroll to the top of the page
