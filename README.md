@@ -1,4 +1,4 @@
-# table_header_persister
+# table(form)_header_persister
 
 ## Install
 
